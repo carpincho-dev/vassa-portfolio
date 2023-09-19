@@ -1,4 +1,11 @@
+const path = require('path')
+
 // @ts-check
 const withNextIntl = require('next-intl/plugin') ()
 
-module.exports = withNextIntl()
+console.log('something something', __dirname)
+module.exports = withNextIntl({
+    sassOptions: {
+        includePaths: [path.join(__dirname, 'src' ,'app')],
+    }
+})

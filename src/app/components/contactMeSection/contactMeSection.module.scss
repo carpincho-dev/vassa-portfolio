@@ -1,0 +1,26 @@
+@use 'breakpoints' as *;
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    @include desktop {
+        flex-direction: row;
+    }
+}
+
+.mailWrapper {
+    width: 100%;
+    @include desktop {
+        width: 70%;
+    }
+}
+
+.socialMedia {
+    width: 100%;
+    @include desktop {
+        width: 30%;
+    }
+}
