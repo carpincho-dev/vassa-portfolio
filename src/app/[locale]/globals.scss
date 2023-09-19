@@ -1,0 +1,41 @@
+@use 'breakpoints' as *;
+
+body {
+    margin: 0;
+    background-color: #181818;
+    font-family: var(--font-inter);
+}
+
+:root {
+    color: white;
+}
+
+h1 {
+    font-size: 9vmin;
+    margin: 0;
+    @include desktop {
+        font-size: 4.4vw;
+    }
+}
+
+h2 {
+    font-size: 9vmin;
+    margin: 0;
+    @include desktop {
+        font-size: 4.4vw;
+    }
+}
+
+p {
+    font-size: 4vmin;
+    line-height: 5.2vmin;
+    margin: 0;
+    @include desktop {
+        font-size: 1.5vw;
+        line-height: 2vw;
+    }
+}
+
+a {
+    color: #276DF1;
+}

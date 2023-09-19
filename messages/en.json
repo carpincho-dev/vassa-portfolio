@@ -1,5 +1,14 @@
 {
-    "Index": {
-        "title": "Hello world!"
+    "ContactMeSection": {
+        "linkText": "Some Text",
+        "jobInquires": "Work inquires",
+        "booking": "and events booking",
+        "contactMe": "Work inquires and events booking",
+        "linkTextEnd": "and stuff"
+    },
+    "HeroSection": {
+        "hiIAm": "Hi, I'm",
+        "whatIDo": "I'm a",
+        "and": "and"
     }
 }

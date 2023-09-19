@@ -1,5 +1,14 @@
 {
-    "Index": {
-        "title": "¡Hola mundo!"
+    "ContactMeSection": {
+        "linkText": "Follor me for more Thoughts and regular updates on",
+        "jobInquires": "Preguntas laborales",
+        "booking": "y reservas",
+        "contactMe": "Preguntas laborales y reservas",
+        "linkTextEnd": "y cositas."
+    },
+    "HeroSection": {
+        "hiIAm": "Hola, soy",
+        "whatIDo": "soy",
+        "and": "y"
     }
 }

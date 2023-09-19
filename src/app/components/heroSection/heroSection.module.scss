@@ -1,0 +1,46 @@
+@use 'breakpoints' as *;
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+    @include desktop {
+        flex-direction: row;
+        height: 100vh;
+    }
+}
+
+.textWrapper {
+    width: 100%;
+    @include desktop {
+        width: 60%;
+    }
+}
+
+.hobby {
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(135deg, rgb(180, 58, 170), rgb(252, 176, 69));
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    @include desktop {
+        width: 40%;
+    }
+}
+
+.image {
+    border-radius: 50%;
+    width: 80%;
+    height: fit-content;
+    @include desktop {
+        height: 100%;
+        width: auto;
+    }
+}
